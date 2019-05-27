@@ -30,6 +30,7 @@ node {
 
    stage 'archive'
    archive 'target/*.jar'
+   snykSecurity failOnIssues: false, snykInstallation: 'SnykV2PluginTest', snykTokenId: '602ca9a0-174d-4c5d-9378-7f41bab6379b'
 }
 
 
